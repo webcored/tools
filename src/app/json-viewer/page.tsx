@@ -132,11 +132,11 @@ export default function JsonViewerPage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-primary">•</span>
-                Upload JSON files using the "Upload File" button
+                Upload JSON files using the &quot;Upload File&quot; button
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-primary">•</span>
-                Try the example JSON data with "Simple" or "Complex" buttons
+                Try the example JSON data with &quot;Simple&quot; or &quot;Complex&quot; buttons
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-primary">•</span>
