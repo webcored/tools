@@ -1,0 +1,76 @@
+# WebCored Tools
+
+> Free online utilities and tools for developers and everyday use
+
+WebCored Tools is a collection of free, web-based utilities designed to help developers and users with common tasks. All tools run entirely in the browser, require no registration, and prioritize user privacy and performance.
+
+## Available Tools
+
+### Countdown Timer
+- [Countdown Timer](/countdown-timer): Create and manage multiple countdown timers for events, deadlines, and special occasions
+- Features: Multiple timers, event tracking, customizable names, real-time display, fullscreen mode
+- Use cases: Event planning, deadline tracking, productivity, time management
+
+### Percentage Calculator  
+- [Percentage Calculator](/percentage-calculator): Calculate percentages, increases, decreases, and percentage relationships
+- Features: Multiple calculation modes, real-time results, percentage of numbers, percentage changes
+- Use cases: Math homework, business calculations, finance, statistics, data analysis
+
+### JSON Viewer & Parser
+- [JSON Viewer](/json-viewer): View, format, validate and parse JSON data with interactive tree view
+- Features: Syntax validation, JSON formatting, error detection, tree view, copy/download functionality
+- Use cases: API development, data validation, JSON debugging, web development
+
+### URL Encoder & Decoder
+- [URL Encoder/Decoder](/url-decoder): Encode and decode URLs, handle special characters and URL-safe formatting
+- Features: URL encoding/decoding, percent encoding, special character conversion, real-time processing
+- Use cases: Web development, URL manipulation, API testing, data encoding
+
+## Technical Information
+
+- **Framework**: Next.js 15 with React 19
+- **Styling**: Tailwind CSS with shadcn/ui components
+- **Deployment**: GitHub Pages
+- **Performance**: Client-side processing, no server required
+- **Privacy**: No data collection, no tracking, local storage only
+
+## Navigation
+
+- [Home](/) - Overview of all available tools
+- [Countdown Timer](/countdown-timer) - Time and deadline management
+- [Percentage Calculator](/percentage-calculator) - Mathematical calculations
+- [JSON Viewer](/json-viewer) - JSON data processing
+- [URL Encoder/Decoder](/url-decoder) - URL manipulation
+
+## Project Structure
+
+```
+src/
+├── app/                 # Next.js app directory
+│   ├── countdown-timer/ # Countdown timer tool
+│   ├── percentage-calculator/ # Percentage calculator
+│   ├── json-viewer/     # JSON viewer and parser
+│   └── url-decoder/     # URL encoder/decoder
+├── components/          # Reusable React components
+│   ├── ui/             # UI component library
+│   ├── layout/         # Layout components
+│   └── tools/          # Tool-specific components
+└── lib/                # Utility libraries
+    ├── countdown.ts    # Countdown logic
+    ├── percentage.ts   # Percentage calculations
+    ├── json-utils.ts   # JSON processing
+    └── seo.ts          # SEO utilities
+```
+
+## Contributing
+
+This is an open-source project. Contributions welcome for:
+- New tool implementations
+- UI/UX improvements  
+- Performance optimizations
+- Bug fixes and testing
+- Documentation improvements
+
+## License
+
+Open source - free for personal and commercial use.

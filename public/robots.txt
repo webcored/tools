@@ -1,0 +1,51 @@
+User-agent: *
+Allow: /
+
+# LLM-friendly content
+Allow: /llms.txt
+
+# Sitemap location
+Sitemap: https://webcored.github.io/tools/sitemap.xml
+
+# Social media and SEO crawlers
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# Search engine specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot  
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+# AI crawlers
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Disallow admin and private paths (none currently)
+# User-agent: *
+# Disallow: /admin
