@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'WebCored' }],
   creator: 'WebCored',
   publisher: 'WebCored',
-  metadataBase: new URL('https://webcored.github.io/tools'),
+  metadataBase: new URL('https://tools.webcored.com'),
   icons: {
     icon: [
       { url: '/favicon.svg', type: 'image/svg+xml' },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'WebCored Tools - Free Online Utilities',
     description: 'Collection of free online tools including countdown timers, calculators, and utilities.',
-    url: 'https://webcored.github.io/tools',
+    url: 'https://tools.webcored.com',
     siteName: 'WebCored Tools',
     images: [
       {

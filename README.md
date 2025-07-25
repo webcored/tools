@@ -4,7 +4,7 @@ A comprehensive collection of free online utilities built with modern web techno
 
 ## 🌐 Live Demo
 
-**Production:** [https://webcored.github.io/tools/](https://webcored.github.io/tools/)
+**Production:** [https://tools.webcored.com/](https://tools.webcored.com/)
 
 ## 🛠️ Built With
 
@@ -193,9 +193,9 @@ src/
 
 ### GitHub Pages
 - **Automatic Deployment:** Pushes to main branch trigger deployment
-- **Base Path Configuration:** Handles `/tools` prefix for GitHub Pages
+- **Custom Domain:** Deployed to tools.webcored.com subdomain
 - **Static Assets:** Optimized for CDN delivery
-- **Custom Domain:** Configurable for custom domains
+- **DNS Configuration:** CNAME record pointing to GitHub Pages
 
 ### Build Optimization
 - **Code Splitting:** Automatic route-based splitting
@@ -219,7 +219,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🔗 Links
 
-- **Live Site:** [https://webcored.github.io/tools/](https://webcored.github.io/tools/)
+- **Live Site:** [https://tools.webcored.com/](https://tools.webcored.com/)
 - **Repository:** [https://github.com/webcored/tools](https://github.com/webcored/tools)
 - **Issues:** [https://github.com/webcored/tools/issues](https://github.com/webcored/tools/issues)
 
